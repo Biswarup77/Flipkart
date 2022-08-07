@@ -20,7 +20,7 @@ public class Page_Result {
 	private String deviceNameLocal;
 	
 	
-	//Change Test
+	//Change Test2
 	
 //	@FindBy(xpath="(//div[contains(text(),'"+deviceNameLocal+"')])[1]")
 //	private WebElement mobileLinkResultPage;
