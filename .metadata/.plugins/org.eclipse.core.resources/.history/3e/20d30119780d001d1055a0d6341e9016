@@ -1,0 +1,32 @@
+package testPackage;
+
+import org.testng.annotations.Test;
+
+import basePackage.BaseClass;
+import pagePackage.Page_Home;
+import pagePackage.Page_Result;
+
+public class Test_Application extends BaseClass{
+		
+	
+	
+	
+		@Test
+		public void perfromAppTest()
+		{
+			
+			Page_Home pg_Home = new Page_Home(driver);			
+			pg_Home.perform_HomePageActivity();
+			
+			Page_Result pg_Result = new Page_Result(driver);
+			pg_Result.perform_ResultPageActivity();
+			
+			
+			
+			
+		}
+	
+	
+	
+	
+}

@@ -1,0 +1,31 @@
+package pagePackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class Page_Home {
+		
+		public WebDriver driver;
+	
+		public Page_Home(WebDriver driver)
+		{
+			
+			this.driver = driver;
+			PageFactory.initElements(driver, this);
+			
+			
+		}
+		
+		
+	
+		public void perform_HomePageActivity()
+		{
+			
+			
+			
+			
+			
+		}
+		
+	
+}

@@ -1,0 +1,29 @@
+package basePackage;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class ConfigReader {
+
+	public FileInputStream fis;
+	
+	public ConfigReader()
+	{
+		
+		
+		try {
+			fis = new FileInputStream(".\\config.Property");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		Properties prop = new Properties();
+		
+		
+	}
+	
+	
+	
+}

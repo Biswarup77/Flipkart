@@ -1,0 +1,52 @@
+package pagePackage;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Page_Cart {
+	
+	
+	
+	public WebDriver driver;		
+	public WebDriverWait wait;
+	
+	private String deviceNameLocal;
+	
+	
+	
+	@FindBy(xpath="//span[contains(text(),'Place Order')]")
+	private WebElement placeOrder_Button;
+	
+	
+	public Page_Cart(WebDriver driver, String deviceName)
+	{
+		
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		
+		wait = new WebDriverWait(driver,Duration.ofSeconds(20));
+		
+		deviceNameLocal = deviceName;
+	}
+	
+	
+
+	public void perform_cartPageActivity()
+	{
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

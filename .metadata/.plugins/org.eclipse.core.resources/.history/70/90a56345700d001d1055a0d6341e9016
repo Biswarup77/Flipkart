@@ -1,0 +1,36 @@
+package basePackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BaseClass {
+	
+	
+	
+	
+	
+		public void initializeDriver()
+		{
+			
+			
+			ConfigReader cd = new ConfigReader();
+			String browser = cd.getKeyVal_ConfigReader("Browser");
+			String url = cd.getKeyVal_ConfigReader("URL");
+			
+			if(browser.equalsIgnoreCase("Firefox"))
+			{
+				
+				System.setProperty("webdriver.gecko.driver", ".\\Driver\\geckodriver.exe");
+				WebDriver driver = new FirefoxDriver();
+				
+				driver.manage().window().maximize();
+				driver.get(url);
+								
+			}
+			
+			
+		}
+	
+	
+
+}

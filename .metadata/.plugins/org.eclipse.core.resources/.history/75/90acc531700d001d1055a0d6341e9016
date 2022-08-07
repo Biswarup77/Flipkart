@@ -1,0 +1,24 @@
+package basePackage;
+
+public class BaseClass {
+	
+	
+	
+	
+	
+		public void initializeDriver()
+		{
+			
+			
+			ConfigReader cd = new ConfigReader();
+			String browser = cd.getKeyVal_ConfigReader("Browser");
+			String url = cd.getKeyVal_ConfigReader("URL");
+			
+			
+			
+			
+		}
+	
+	
+
+}
