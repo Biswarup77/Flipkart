@@ -697,3 +697,11 @@ Caused by: org.eclipse.core.runtime.OperationCanceledException: null
 2022-08-07 21:05:15,318 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\main\resources
 2022-08-07 21:05:15,321 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-07 21:05:15,321 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\test\resources
+2022-08-07 21:23:35,373 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-07 21:23:35,374 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\main\resources
+2022-08-07 21:23:35,377 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-07 21:23:35,377 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\test\resources
+2022-08-07 21:24:01,964 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-07 21:24:01,965 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\main\resources
+2022-08-07 21:24:01,967 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-07 21:24:01,967 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\test\resources
