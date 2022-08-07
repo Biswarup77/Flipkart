@@ -707,3 +707,5 @@ Caused by: org.eclipse.core.runtime.OperationCanceledException: null
 2022-08-07 21:24:01,967 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\test\resources
 2022-08-07 21:31:48,101 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-07 21:31:48,101 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\main\resources
+2022-08-07 21:31:48,106 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-07 21:31:48,106 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\04819I744\eclipse-workspace7\Flipkart\src\test\resources
